@@ -77,21 +77,44 @@ public class Tutorial4
         
         // e)
         
-        int n = 1;
-        double sum = 0.0;
-        int upwardsCount = 1;
+//        int n = 1;
+//        double sum = 0.0;
+//        int upwardsCount = 1;
+//        
+//        for (int i = 25; i >= n; i--)
+//        {
+//            
+//            System.out.printf("%d / %d = %.2f\n", upwardsCount, i, (double) ((double) upwardsCount / (double) i));
+//            sum += (double) ((double) upwardsCount / (double) i);
+//            upwardsCount++;
+//            
+//        }
+//        
+//        System.out.printf("\nThe sum of the series 1/25 + 2/24 + 3/23 + ... + 25/1 is: %.2f\n", sum);
+
+
+        /** Question 2 */
         
-        for (int i = 25; i >= n; i--)
+        // a)
+        
+//        int sum = 0;
+//        
+//        for (int x = 10; x > 0; x++)
+//            sum += x;
+        
+        // b)
+        
+        int x = 0;
+        int y = 0;
+        
+        do
         {
             
-            System.out.printf("%d / %d = %.2f\n", upwardsCount, i, (double) ((double) upwardsCount / (double) i));
-            sum += (double) ((double) upwardsCount / (double) i);
-            upwardsCount++;
+            x += 2;
+            y += x;
+            System.out.println(x + " and " + y);
             
-        }
-        
-        System.out.printf("\nThe sum of the series 1/25 + 2/24 + 3/23 + ... + 25/1 is: %.2f\n", sum);
-        
+        } while (x < 100);
     }
     
 }
