@@ -1,6 +1,7 @@
 package tutorial4;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Tutorial4
 {
@@ -32,7 +33,26 @@ public class Tutorial4
         
         // c)
         
+        Random rand = new Random();
         
+        int min = 0;
+        int max = 100 + 1; // max is exclusive, so add 1
+        
+        for (int i = 0; i < 4; i++)
+        {
+            
+            for (int j = 0; j < 5; j++)
+            {
+                
+                int currentRandNum = rand.nextInt(max - min) + min;
+                
+                System.out.print(currentRandNum + "\t");
+                
+            }
+            
+            System.out.println("");
+            
+        }
         
     }
     
