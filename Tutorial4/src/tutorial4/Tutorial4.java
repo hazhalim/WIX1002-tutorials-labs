@@ -33,26 +33,46 @@ public class Tutorial4
         
         // c)
         
-        Random rand = new Random();
+//        Random rand = new Random();
+//        
+//        int min = 0;
+//        int max = 100 + 1; // max is exclusive, so add 1
+//        
+//        for (int i = 0; i < 4; i++)
+//        {
+//            
+//            for (int j = 0; j < 5; j++)
+//            {
+//                
+//                int currentRandNum = rand.nextInt(max - min) + min;
+//                
+//                System.out.print(currentRandNum + "\t");
+//                
+//            }
+//            
+//            System.out.println("");
+//            
+//        }
         
-        int min = 0;
-        int max = 100 + 1; // max is exclusive, so add 1
+        // d)
         
-        for (int i = 0; i < 4; i++)
+        Scanner keyboard = new Scanner(System.in);
+        
+        System.out.print("Hi, please enter an integer: ");
+        
+        int n = keyboard.nextInt();
+        
+        int sum = 0;
+        
+        for (int i = 1; i <= n; i++)
         {
             
-            for (int j = 0; j < 5; j++)
-            {
-                
-                int currentRandNum = rand.nextInt(max - min) + min;
-                
-                System.out.print(currentRandNum + "\t");
-                
-            }
+            sum += i;
             
-            System.out.println("");
             
         }
+        
+        System.out.println("The sum of all integers between 1 and " + n + " is: " + sum);
         
     }
     
