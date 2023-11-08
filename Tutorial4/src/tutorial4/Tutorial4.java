@@ -56,23 +56,41 @@ public class Tutorial4
         
         // d)
         
-        Scanner keyboard = new Scanner(System.in);
+//        Scanner keyboard = new Scanner(System.in);
+//        
+//        System.out.print("Hi, please enter an integer: ");
+//        
+//        int n = keyboard.nextInt();
+//        
+//        int sum = 0;
+//        
+//        for (int i = 1; i <= n; i++)
+//        {
+//            
+//            sum += i;
+//            
+//            
+//        }
+//        
+//        System.out.println("The sum of all integers between 1 and " + n + " is: " + sum);
+
         
-        System.out.print("Hi, please enter an integer: ");
+        // e)
         
-        int n = keyboard.nextInt();
+        int n = 1;
+        double sum = 0.0;
+        int upwardsCount = 1;
         
-        int sum = 0;
-        
-        for (int i = 1; i <= n; i++)
+        for (int i = 25; i >= n; i--)
         {
             
-            sum += i;
-            
+            System.out.printf("%d / %d = %.2f\n", upwardsCount, i, (double) ((double) upwardsCount / (double) i));
+            sum += (double) ((double) upwardsCount / (double) i);
+            upwardsCount++;
             
         }
         
-        System.out.println("The sum of all integers between 1 and " + n + " is: " + sum);
+        System.out.printf("\nThe sum of the series 1/25 + 2/24 + 3/23 + ... + 25/1 is: %.2f\n", sum);
         
     }
     
