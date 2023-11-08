@@ -172,24 +172,24 @@ public class Tutorial4
         
         /** Question 4 */
         
-        Scanner keyboard = new Scanner(System.in);
-        
-        System.out.print("Hey! Enter a string, please: ");
-        
-        String originalString = keyboard.nextLine();
-        
-        System.out.println("");
-        
-        System.out.print("Reversed string: ");
-        
-        for (int i = originalString.length() - 1; i >= 0; i--)
-        {
-            
-            System.out.print(originalString.charAt(i));
-            
-        }
-        
-        System.out.println("");
+//        Scanner keyboard = new Scanner(System.in);
+//        
+//        System.out.print("Hey! Enter a string, please: ");
+//        
+//        String originalString = keyboard.nextLine();
+//        
+//        System.out.println("");
+//        
+//        System.out.print("Reversed string: ");
+//        
+//        for (int i = originalString.length() - 1; i >= 0; i--)
+//        {
+//            
+//            System.out.print(originalString.charAt(i));
+//            
+//        }
+//        
+//        System.out.println("");
         
     }
     
