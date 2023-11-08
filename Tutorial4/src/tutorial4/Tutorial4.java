@@ -145,7 +145,32 @@ public class Tutorial4
 //            
 //        }
         
-       /** Question 3 */ 
+       /** Question 3 */
+        
+        int fibonacciMinusOne = 1;
+        int fibonacciMinusTwo = 1;
+        
+        for (int i = 1; i <= 10; i++)
+        {
+            
+            if (i == 1 || i == 2)
+            {
+                
+                System.out.print("1 \n");
+                continue;
+                
+            }
+            
+            int nextFibonacciNum = fibonacciMinusOne + fibonacciMinusTwo; // find the next fibonacci number
+            
+            System.out.print(nextFibonacciNum + "\n");
+            
+            fibonacciMinusTwo = fibonacciMinusOne; // this number moves to the next fibonacci number, which is fibonacci (n - 1)
+            fibonacciMinusOne = nextFibonacciNum; // this number moves to the next fibonacci number, which is the number just printed out to the console
+            
+        }
+        
+        /** Question 5 */
         
     }
     
