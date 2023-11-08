@@ -104,17 +104,30 @@ public class Tutorial4
         
         // b)
         
-        int x = 0;
-        int y = 0;
+//        int x = 0;
+//        int y = 0;
+//        
+//        do
+//        {
+//            
+//            x += 2;
+//            y += x;
+//            System.out.println(x + " and " + y);
+//            
+//        } while (x < 100);
+
+
+        // c)
         
-        do
-        {
-            
-            x += 2;
-            y += x;
-            System.out.println(x + " and " + y);
-            
-        } while (x < 100);
+//        for (int x = 1, y = 20; x < y; x++, y -=2)
+//        {
+//            
+//            System.out.println(x + " " + y);
+//            
+//        }
+        
+        // d)
+        
     }
     
 }
