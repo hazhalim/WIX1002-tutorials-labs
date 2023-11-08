@@ -1,20 +1,33 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package tutorial4;
 
-/**
- *
- * @author haziqhalim
- */
-public class Tutorial4 {
+public class Tutorial4
+{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args)
+    {
+        
+        /** Question 1 */
+        
+        int n = 1;
+        
+        while (true)
+        {
+            
+            if (Math.pow(n, 3) < 2000)
+            {
+                
+                n++;
+                
+            } else {
+                
+                break;
+                
+            }
+            
+        }
+        
+        System.out.println("The largest integer, n, where n^3 is less than 2000 is " + n + ". The value of " + n + "^3 is: " + (int) Math.pow(n, 3));
+        
     }
     
 }
