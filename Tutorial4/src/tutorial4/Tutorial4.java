@@ -1,3 +1,7 @@
+package tutorial4;
+
+import java.util.Scanner;
+
 public class Tutorial4
 {
     public static void main(String[] args)
@@ -18,6 +22,17 @@ public class Tutorial4
 //        System.out.println("The largest integer, n, where n^3 is less than 2000 is " + n + ". The value of " + n + "^3 is: " + (int) Math.pow(n, 3));
         
         // b)
+        
+//        for (int i = 1; i <= 12; i++)
+//        {
+//            
+//            System.out.println(i + "^2: " + (int) Math.pow(i, 2));
+//            
+//        }
+        
+        // c)
+        
+        
         
     }
     
